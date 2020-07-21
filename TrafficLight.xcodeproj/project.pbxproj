@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		771D61B024C6425900543AC8 /* ButtonTrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771D61AF24C6425900543AC8 /* ButtonTrafficLight.swift */; };
 		7721FE6F24C6309E00094D37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7721FE6E24C6309E00094D37 /* AppDelegate.swift */; };
 		7721FE7124C6309E00094D37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7721FE7024C6309E00094D37 /* SceneDelegate.swift */; };
 		7721FE7324C6309E00094D37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7721FE7224C6309E00094D37 /* ContentView.swift */; };
 		7721FE7524C6309F00094D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7721FE7424C6309F00094D37 /* Assets.xcassets */; };
 		7721FE7824C6309F00094D37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7721FE7724C6309F00094D37 /* Preview Assets.xcassets */; };
 		7721FE7B24C6309F00094D37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7721FE7924C6309F00094D37 /* LaunchScreen.storyboard */; };
+		7721FE8524C6330F00094D37 /* CircleTrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7721FE8424C6330F00094D37 /* CircleTrafficLight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		771D61AF24C6425900543AC8 /* ButtonTrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTrafficLight.swift; sourceTree = "<group>"; };
 		7721FE6B24C6309E00094D37 /* TrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7721FE6E24C6309E00094D37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7721FE7024C6309E00094D37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		7721FE7724C6309F00094D37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7721FE7A24C6309F00094D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7721FE7C24C6309F00094D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7721FE8424C6330F00094D37 /* CircleTrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTrafficLight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				7721FE6E24C6309E00094D37 /* AppDelegate.swift */,
+				771D61AF24C6425900543AC8 /* ButtonTrafficLight.swift */,
+				7721FE8424C6330F00094D37 /* CircleTrafficLight.swift */,
 				7721FE7024C6309E00094D37 /* SceneDelegate.swift */,
 				7721FE7224C6309E00094D37 /* ContentView.swift */,
 				7721FE7424C6309F00094D37 /* Assets.xcassets */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7721FE6F24C6309E00094D37 /* AppDelegate.swift in Sources */,
+				7721FE8524C6330F00094D37 /* CircleTrafficLight.swift in Sources */,
+				771D61B024C6425900543AC8 /* ButtonTrafficLight.swift in Sources */,
 				7721FE7124C6309E00094D37 /* SceneDelegate.swift in Sources */,
 				7721FE7324C6309E00094D37 /* ContentView.swift in Sources */,
 			);
