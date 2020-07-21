@@ -32,25 +32,25 @@ struct ContentView: View {
                 Button(action: {
                     
                     if self.activeRed {
+                       
                         self.activeRed    = false
                         self.activeYellow = true
-                        return
-                    }
                     
-                    if self.activeYellow {
+                    } else if self.activeYellow {
+                    
                         self.activeYellow = false
                         self.activeGreen  = true
-                        return
-                    }
-                    
-                    if self.activeGreen {
+                        
+                    } else if self.activeGreen {
+                       
                         self.activeGreen = false
                         self.activeRed   = true
-                        return
+                        
+                    } else {
+                       
+                        self.activeRed  = true
+                        self.NameButton = "NEXT"
                     }
-                    
-                    self.activeRed  = true
-                    self.NameButton = "NEXT"
                     
                 }) {
                     ButtonTrafficLight(nameButton: NameButton)
